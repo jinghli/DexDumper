@@ -1,0 +1,10 @@
+Usage: DexDumper.py -i INTPUT_FILE {-o OUTPUT_FILE}
+
+Options:
+  -h, --help            show this help message and exit
+  -i INPUT_FILE, --input=INPUT_FILE
+                        Input file for APKs
+  -o OUTPUT_FILE, --output=OUTPUT_FILE
+                        [Optional]Output file for dex info
+                        
+Dump the string part of dex file of apk. Give an apk as the input, will output the string content to output file.
